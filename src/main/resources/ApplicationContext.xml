@@ -1,0 +1,11 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+
+    <!-- Create bean of type EmployeeService class and insert dependency of EmployeeDAO class in it using Setter Dependency Injection -->
+    <bean id="employeeService" class="com.javainuse.service.EmployeeService">
+        <property name="empDAO" ref="employeeDAO" />
+    </bean>
+    <!-- Create bean of type EmployeeDAO class -->
+    <bean id="employeeDAO" class="com.javainuse.dao.EmployeeDAO" />
+</beans>

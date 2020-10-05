@@ -1,12 +1,12 @@
 package com.javainuse.service;
 
-import com.javainuse.dao.EmployeeDAO;
+import com.javainuse.dao.EmployeeDAOImplUsingJDBC;
 import com.javainuse.domain.Employee;
 
 import java.util.List;
 
 public class EmployeeService {
-    EmployeeDAO empDAO;
+    EmployeeDAOImplUsingJDBC empDAO;
 
     public void addNewEmployee(Employee emp) {
         empDAO.addNewEmployee(emp);
@@ -17,7 +17,7 @@ public class EmployeeService {
     }
 
     //Setter for EmployeeDAO for setter injection
-    public void setEmpDAO(EmployeeDAO empDAO) {
+    public void setEmpDAO(EmployeeDAOImplUsingJDBC empDAO) {
         this.empDAO = empDAO;
     }
 }

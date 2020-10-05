@@ -7,5 +7,5 @@
         <property name="empDAO" ref="employeeDAO" />
     </bean>
     <!-- Create bean of type EmployeeDAO class -->
-    <bean id="employeeDAO" class="com.javainuse.dao.EmployeeDAO" />
+    <bean id="employeeDAO" class="com.javainuse.dao.EmployeeDAOImplUsingJDBC" />
 </beans>

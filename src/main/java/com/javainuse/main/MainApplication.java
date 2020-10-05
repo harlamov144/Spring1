@@ -1,6 +1,5 @@
 package com.javainuse.main;
 
-import com.javainuse.dao.EmployeeDAO;
 import com.javainuse.domain.Employee;
 import com.javainuse.service.EmployeeService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

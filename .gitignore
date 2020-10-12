@@ -1,2 +1,6 @@
 /target/
 /.idea/vcs.xml
+/.idea/encodings.xml
+/database.dat.properties
+/database.dat.script
+/springmvc/springmvc.iml
